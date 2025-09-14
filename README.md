@@ -3,14 +3,14 @@
 #### Meta Characters :-
 - []	A set of characters	
 - \	Signals a special sequence (can also be used to escape special characters)		
-- .	Any character (except newline character)	
-- ^	Starts with		
-- $	Ends with		
-- *	Zero or more occurrences	
-- +	One or more occurrences		
-- ?	Zero or one occurrences		
-- {}Exactly the specified number of occurrences		
-- |	Either or
+- (.)	Any character (except newline character)	
+- (^)	Starts with		
+- ($)	Ends with		
+- (*)	Zero or more occurrences	
+- (+)	One or more occurrences		
+- (?)	Zero or one occurrences		
+- {} Exactly the specified number of occurrences		
+- (|) Either or
 
 #### 1.Find all lower case characters alphabetically between "a" and "m":
 ```python
