@@ -12,6 +12,21 @@
 - {} Exactly the specified number of occurrences		
 - (|) Either or
 
+#### Some Examples :-
+- [a,b,c] -> a,b or c 
+- [^abc]  -> any characte except a,b,c
+- [a-z]   -> a to z 
+- [A-Z]   -> A to Z 
+- [a-zA-Z]-> a to z,A to Z
+- [0-9]   -> 0 to 9
+
+- [ ]?    -> occurs 0 or 1 times 
+- [ ]+    -> occurs 1 or more times
+- [ ]*    -> occurs 0 or more times 
+- [ ]{n}  -> occurs n times
+- [ ]{n,} -> occurs n or more times
+- [ ]{y,z}-> occurs at least y times but less than z times
+
 #### 1.Find all lower case characters alphabetically between "a" and "m":
 ```python
 txt = "The rain in Spain"
